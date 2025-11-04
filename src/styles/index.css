@@ -9,3 +9,24 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+#contador {
+    width: 20rem;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    border-radius: 15px;
+    
+}
+
+.numbers {
+  font-size: 2.5rem;
+  font-weight: bold;
+  
+}
+#totalcontador{
+    display: flex;
+    justify-content: center;
+}
