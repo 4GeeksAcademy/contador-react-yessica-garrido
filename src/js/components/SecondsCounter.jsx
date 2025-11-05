@@ -1,15 +1,16 @@
-import React, { useState, useEffect } from "react";
+import React  from "react";
 
-const SecondsCounter = (props) => {
-  const [seconds, setSeconds] = useState(0)
+const SecondsCounter = ({seconds}) => {
+  
+  
 
-  useEffect(() => {
+    /*useEffect(() => {
     const interval = setInterval(() => {
       setSeconds((preSeconds) => preSeconds + 1);
     }, 1000);
 
     return () => clearInterval(interval);
-  }, []);
+  }, []);*/
 
   const segundos = seconds % 60;
   const minutos = Math.floor(seconds / 60) % 60;
